@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {% block title %}
+            <title>Opa, bom?</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="styles/main.css">
+        {% block styles %}{% endblock %}
+        <link rel="stylesheet" href="styles/responsive.css">
+    </head>
+
+    <body>
+
+        <div id="{{ pageId }} ">
+            {% block content %}
+            
+            {% endblock %}
+        </div>
+    {% block modal %}{% endblock %}
+    {% block script %}
+    {% endblock %}
+    </body>
+
+</html>

@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-search-res" %}
+
+{% block title %}
+    <title>Criar ponto de coleta</title>
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/search-results.css">
+{% endblock %}
+
+{% block content %}
+    {% include "partials/page-header.html" %}
+    <main>
+        <h3>
+            <strong>2 Pontos</strong>
+            encontrados
+        </h3>
+        <div class="cards">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlwNuM9nA-ofW0LQj-C1WbMVI2GJ4UWtjnpMqjCiUYQ_ovlrr7&usqp=CAU" alt="v">
+                <h1>Colectoria</h1>
+                <h3>Alguma coisa</h3>
+                <p>
+                    Lotasdaeasd akfjas
+                    <br>
+                    askjdfalf
+                    <br>
+                    aslkjdal
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3K_elKslhW-HCgmm2WxN_g0wnTOo-FEpr-QSI013nX5J0NM3f&usqp=CAU" alt="a">
+                <h1>Colectoria</h1>
+                <h3>Alguma coisa</h3>
+                <p>
+                    Lotasdaeasd akfjas
+                    <br>
+                    askjdfalf
+                    <br>
+                    aslkjdal
+                </p>
+            </div>
+
+        </div>
+    </main>
+{% endblock %}

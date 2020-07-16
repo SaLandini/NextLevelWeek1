@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Work+Sans:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap');
+:root {
+    --title-color: #322153;
+    --primary-color: #c5c5e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+body {
+    background-color: #dfdff0;
+    -webkit-font-smoothing: antialiased
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--title-color);
+}
